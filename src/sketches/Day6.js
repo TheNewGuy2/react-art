@@ -13,7 +13,7 @@ import Sketch from "react-p5";
 		const canvasHeight = 900;
 		p5.createCanvas(canvasWidth, canvasHeight).parent(canvasParentRef);
 		p5.randomSeed(50)
-		p5.frameRate(p5.random(3, 30))
+		p5.frameRate(p5.random(0.2, 3))
 	  
 
 	};
